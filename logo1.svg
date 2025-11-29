@@ -1,0 +1,26 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="150" cy="150" r="145" fill="#F5E6D3" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Leaf decoration top left -->
+  <path d="M 80 80 Q 85 75 90 80 Q 85 85 80 80" fill="#2D5016" opacity="0.8"/>
+  <path d="M 88 78 L 92 82" stroke="#2D5016" stroke-width="1" opacity="0.8"/>
+  
+  <!-- Leaf decoration top right -->
+  <path d="M 220 80 Q 215 75 210 80 Q 215 85 220 80" fill="#2D5016" opacity="0.8"/>
+  <path d="M 212 78 L 208 82" stroke="#2D5016" stroke-width="1" opacity="0.8"/>
+  
+  <!-- Main Text -->
+  <text x="150" y="140" font-family="Arial, sans-serif" font-size="56" font-weight="bold" text-anchor="middle" fill="#8B4513" letter-spacing="2">AROMA</text>
+  
+  <!-- Subtitle in Arabic -->
+  <text x="150" y="175" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2D5016" letter-spacing="1">للصناعات الغذائية</text>
+  
+  <!-- Decorative line -->
+  <line x1="70" y1="195" x2="230" y2="195" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Bottom decorative elements -->
+  <circle cx="90" cy="230" r="3" fill="#D4A574"/>
+  <circle cx="150" cy="230" r="3" fill="#D4A574"/>
+  <circle cx="210" cy="230" r="3" fill="#D4A574"/>
+</svg>

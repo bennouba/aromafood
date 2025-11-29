@@ -1,0 +1,31 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Square background with rounded corners -->
+  <rect x="20" y="20" width="260" height="260" rx="30" fill="#FAFAF7" stroke="#C85A3A" stroke-width="2"/>
+  
+  <!-- Geometric pattern - hexagon theme -->
+  <g opacity="0.3">
+    <circle cx="80" cy="80" r="25" fill="none" stroke="#C85A3A" stroke-width="1"/>
+    <circle cx="220" cy="220" r="25" fill="none" stroke="#C85A3A" stroke-width="1"/>
+  </g>
+  
+  <!-- Abstract leaf/spice icon -->
+  <g transform="translate(150, 80)">
+    <!-- Central circle -->
+    <circle cx="0" cy="0" r="12" fill="#C85A3A" opacity="0.9"/>
+    <!-- Surrounding leaves -->
+    <ellipse cx="-15" cy="0" rx="8" ry="10" fill="#E89B6E" opacity="0.8" transform="rotate(-45 -15 0)"/>
+    <ellipse cx="15" cy="0" rx="8" ry="10" fill="#E89B6E" opacity="0.8" transform="rotate(45 15 0)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="10" fill="#D97052" opacity="0.8"/>
+    <ellipse cx="0" cy="15" rx="8" ry="10" fill="#D97052" opacity="0.8"/>
+  </g>
+  
+  <!-- Main English text -->
+  <text x="150" y="165" font-family="'Montserrat', 'Arial', sans-serif" font-size="56" font-weight="700" text-anchor="middle" fill="#2C2C2C" letter-spacing="1.5">AROMA</text>
+  
+  <!-- Arabic text -->
+  <text x="150" y="200" font-family="'Arial', sans-serif" font-size="16" text-anchor="middle" fill="#C85A3A" font-weight="600">شركة أروما</text>
+  <text x="150" y="220" font-family="'Arial', sans-serif" font-size="13" text-anchor="middle" fill="#2C2C2C" font-weight="500">للصناعات الغذائية الطبيعية</text>
+  
+  <!-- Bottom line accent -->
+  <line x1="100" y1="235" x2="200" y2="235" stroke="#C85A3A" stroke-width="2" stroke-linecap="round"/>
+</svg>
