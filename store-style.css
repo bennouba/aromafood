@@ -112,7 +112,7 @@ html, body {
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, rgba(44, 24, 16, 0.9), rgba(26, 15, 8, 0.95)), 
-                url('https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?w=1200&h=500&fit=crop');
+                url('https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=60');
     background-size: cover;
     background-position: center;
     color: white;
