@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +8,11 @@
 
 html, body {
     direction: rtl;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Cairo', sans-serif;
     color: #333;
     line-height: 1.6;
     background: #f9f9f9;
+    font-weight: 400;
 }
 
 .container {
@@ -54,8 +57,9 @@ html, body {
 .company-name {
     font-size: 28px;
     color: #1E3A2F;
-    font-weight: 700;
+    font-weight: 900;
     margin-bottom: 5px;
+    font-family: 'Cairo', sans-serif;
 }
 
 .company-tagline {
@@ -87,7 +91,8 @@ html, body {
 .hero-content h2 {
     font-size: 36px;
     margin-bottom: 15px;
-    font-weight: 700;
+    font-weight: 800;
+    font-family: 'Cairo', sans-serif;
 }
 
 .hero-content p {
@@ -101,7 +106,8 @@ html, body {
     color: #1E3A2F;
     text-align: center;
     margin-bottom: 40px;
-    font-weight: 700;
+    font-weight: 800;
+    font-family: 'Cairo', sans-serif;
     position: relative;
     padding-bottom: 15px;
 }
@@ -179,7 +185,8 @@ html, body {
     font-size: 22px;
     color: #1E3A2F;
     margin-bottom: 15px;
-    font-weight: 700;
+    font-weight: 800;
+    font-family: 'Cairo', sans-serif;
 }
 
 .about-item p {
@@ -239,7 +246,8 @@ html, body {
     font-size: 16px;
     color: #1E3A2F;
     margin-bottom: 10px;
-    font-weight: 700;
+    font-weight: 800;
+    font-family: 'Cairo', sans-serif;
 }
 
 .product-content p {
@@ -286,7 +294,8 @@ html, body {
 .quality-item h4 {
     font-size: 14px;
     color: #1E3A2F;
-    font-weight: 700;
+    font-weight: 800;
+    font-family: 'Cairo', sans-serif;
 }
 
 /* New Products */
@@ -325,7 +334,8 @@ html, body {
     font-size: 18px;
     color: #1E3A2F;
     padding: 20px 20px 10px;
-    font-weight: 700;
+    font-weight: 800;
+    font-family: 'Cairo', sans-serif;
 }
 
 .new-product-item p {
@@ -379,7 +389,8 @@ html, body {
 .contact-item h4 {
     font-size: 18px;
     margin-bottom: 15px;
-    font-weight: 700;
+    font-weight: 800;
+    font-family: 'Cairo', sans-serif;
 }
 
 .contact-item p {
