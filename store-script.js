@@ -1,23 +1,23 @@
 const products = [
     {
         id: 1,
-        name: 'قهوة عربية فاخرة - 500 جرام',
+        name: 'قهوة موفينبيك كريما - 10 كبسولات',
         category: 'coffee',
-        price: 45.00,
-        image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+        price: 20.00,
+        image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=85',
         rating: 5,
         reviews: 45,
         badge: 'جديد',
         badgeClass: 'new',
-        description: 'قهوة عربية أصلية محمصة طازجة بجودة عالية'
+        description: 'قهوة موفينبيك كريما بجودة عالية'
     },
     {
         id: 2,
-        name: 'السكر الأبيض - أكياس صغيرة',
+        name: 'السكر الأبيض - 1 كغ',
         category: 'sugar',
-        price: 12.00,
-        image: 'https://images.unsplash.com/photo-1599599810998-c87b8b9b56c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
-        rating: 4,
+        price: 8.00,
+        image: 'https://images.unsplash.com/photo-1599599810998-c87b8b9b56c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=85',
+        rating: 5,
         reviews: 32,
         badge: 'الأكثر مبيعاً',
         badgeClass: 'sale',
@@ -25,21 +25,21 @@ const products = [
     },
     {
         id: 3,
-        name: 'سكر براون - أكياس صغيرة',
+        name: 'سكر براون - 1 كغ',
         category: 'sugar',
-        price: 15.00,
-        image: 'https://images.unsplash.com/photo-1559056199-845a15244333?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+        price: 12.00,
+        image: 'https://images.unsplash.com/photo-1563255503-c1d0dba0eca5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=85',
         rating: 5,
         reviews: 28,
         badge: null,
-        description: 'سكر براون فاخر بطعم غني ودافئ'
+        description: 'سكر براون فاخر بطعم غني'
     },
     {
         id: 4,
         name: 'حبوب القهوة المختارة - 1 كغ',
         category: 'coffee',
         price: 65.00,
-        image: 'https://images.unsplash.com/photo-1511537190424-af2c5d8f4fda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+        image: 'https://images.unsplash.com/photo-1447933601403-0c6688de56e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=85',
         rating: 5,
         reviews: 67,
         badge: 'خاص',
@@ -51,7 +51,7 @@ const products = [
         name: 'قهوة مطحونة ناعمة - 400 جرام',
         category: 'coffee',
         price: 38.00,
-        image: 'https://images.unsplash.com/photo-1514432324607-2e467f4af445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+        image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=85',
         rating: 4,
         reviews: 39,
         badge: null,
@@ -59,10 +59,10 @@ const products = [
     },
     {
         id: 6,
-        name: 'مجموعة مستلزمات القهوة الكاملة',
+        name: 'مجموعة مستلزمات القهوة',
         category: 'accessories',
         price: 85.00,
-        image: 'https://images.unsplash.com/photo-1559056199-611a365d37e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+        image: 'https://images.unsplash.com/photo-1517271048169-0feb91c13b0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=85',
         rating: 5,
         reviews: 54,
         badge: null,
@@ -73,7 +73,7 @@ const products = [
         name: 'مجموعة السكريات المتنوعة',
         category: 'sugar',
         price: 35.00,
-        image: 'https://images.unsplash.com/photo-1559056199-750f2c38597d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+        image: 'https://images.unsplash.com/photo-1562884353-63dfe82b42de?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=85',
         rating: 4,
         reviews: 21,
         badge: null,
@@ -84,7 +84,7 @@ const products = [
         name: 'قهوة عطرية فاخرة - 250 جرام',
         category: 'coffee',
         price: 55.00,
-        image: 'https://images.unsplash.com/photo-1447933601403-0c6688de56e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+        image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=85',
         rating: 5,
         reviews: 48,
         badge: null,
@@ -95,7 +95,7 @@ const products = [
         name: 'أدوات تحضير القهوة المحترفة',
         category: 'accessories',
         price: 120.00,
-        image: 'https://images.unsplash.com/photo-1514432324607-2e467f4af445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+        image: 'https://images.unsplash.com/photo-1514432324607-2e467f4af445?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=85',
         rating: 5,
         reviews: 35,
         badge: 'جديد',
@@ -107,7 +107,7 @@ const products = [
         name: 'قهوة سريعة الذوبان الفاخرة',
         category: 'coffee',
         price: 28.00,
-        image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+        image: 'https://images.unsplash.com/photo-1559056199-750f2c38597d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=85',
         rating: 4,
         reviews: 22,
         badge: null,
@@ -118,7 +118,7 @@ const products = [
         name: 'كوب القهوة الذكي - معزول حراري',
         category: 'accessories',
         price: 75.00,
-        image: 'https://images.unsplash.com/photo-1514432324607-2e467f4af445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+        image: 'https://images.unsplash.com/photo-1521841776224-e2a00f3e7f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=85',
         rating: 5,
         reviews: 41,
         badge: null,
@@ -129,7 +129,7 @@ const products = [
         name: 'سكر ملون - مجموعة متنوعة',
         category: 'sugar',
         price: 22.00,
-        image: 'https://images.unsplash.com/photo-1599599810998-c87b8b9b56c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+        image: 'https://images.unsplash.com/photo-1563255503-c1d0dba0eca5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=85',
         rating: 4,
         reviews: 18,
         badge: null,
@@ -168,8 +168,7 @@ function renderProducts(category = 'all', searchTerm = '') {
                     ${badge}
                 </div>
                 <div class="product-info">
-                    <h3 class="product-name">${product.name}</h3>
-                    <p class="product-description">${product.description}</p>
+                    <h3 class="product-title">${product.name}</h3>
                     <div class="product-rating">
                         <span class="stars">${stars}</span>
                         <span class="reviews-count">(${product.reviews})</span>
@@ -197,15 +196,11 @@ function addToCart(productName, price) {
     const button = event.target;
     const originalText = button.textContent;
     button.textContent = '✓ تم الإضافة';
-    button.style.background = 'linear-gradient(135deg, #4CAF50, #45a049)';
-    button.style.borderColor = '#4CAF50';
-    button.style.color = 'white';
+    button.classList.add('added');
 
     setTimeout(() => {
         button.textContent = originalText;
-        button.style.background = '';
-        button.style.borderColor = '';
-        button.style.color = '';
+        button.classList.remove('added');
     }, 2000);
 
     console.log(`تم إضافة: ${productName} - السعر: ${price} د.ل`);
